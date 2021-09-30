@@ -39,7 +39,7 @@ def print_ksdata(keysafe):
 
 
 def crack_keysafe(keysafe, dict):
-    wordlist = open(dict, 'r', encoding='utf-8', errors='ignore'))
+    wordlist = open(dict, 'r', encoding='utf-8', errors='ignore')
     count = 0
 
     print("\n[*] Starting bruteforce...")
